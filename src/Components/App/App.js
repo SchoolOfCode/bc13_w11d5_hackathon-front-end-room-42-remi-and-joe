@@ -1,10 +1,10 @@
 import "./App.css";
 import React from "react";
-import createContext from "react";
+import { createContext } from "react";
 import MovieList from "../movieLister/movieLister";
 import useFetch from "../hooks/useFetch";
 
-const url = "https://hackathon-week-11-backend.onrender.com/movies";
+const url = "http://localhost:3000/movies";
 export const UserContext = createContext();
 
 function App() {
