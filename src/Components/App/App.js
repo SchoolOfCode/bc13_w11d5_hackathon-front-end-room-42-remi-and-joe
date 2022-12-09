@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
-import { createContext, UserContext } from "react";
+import createContext from "react";
+import UserContext from "react";
 import MovieList from "../movieLister/movieLister";
 import useFetch from "../hooks/useFetch";
 
