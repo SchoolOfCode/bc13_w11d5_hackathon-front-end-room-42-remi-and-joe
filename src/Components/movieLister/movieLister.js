@@ -1,5 +1,5 @@
 import useContext from "react";
-import UserContext from "react";
+import UserContext from "../App/App.js";
 import List from "../List/List";
 
 function MovieList() {
